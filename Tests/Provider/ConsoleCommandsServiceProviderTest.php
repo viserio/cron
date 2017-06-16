@@ -1,15 +1,15 @@
 <?php
 declare(strict_types=1);
-namespace Viserio\Component\Cron\Tests\Providers;
+namespace Viserio\Component\Cron\Tests\Provider;
 
 use PHPUnit\Framework\TestCase;
-use Viserio\Component\Cache\Providers\CacheServiceProvider;
+use Viserio\Component\Cache\Provider\CacheServiceProvider;
 use Viserio\Component\Console\Application;
-use Viserio\Component\Console\Providers\ConsoleServiceProvider;
+use Viserio\Component\Console\Provider\ConsoleServiceProvider;
 use Viserio\Component\Container\Container;
-use Viserio\Component\Cron\Commands\CronListCommand;
-use Viserio\Component\Cron\Commands\ScheduleRunCommand;
-use Viserio\Component\Cron\Providers\ConsoleCommandsServiceProvider;
+use Viserio\Component\Cron\Command\CronListCommand;
+use Viserio\Component\Cron\Command\ScheduleRunCommand;
+use Viserio\Component\Cron\Provider\ConsoleCommandsServiceProvider;
 
 class ConsoleCommandsServiceProviderTest extends TestCase
 {

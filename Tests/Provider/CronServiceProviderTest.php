@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
-namespace Viserio\Component\Cron\Tests\Providers;
+namespace Viserio\Component\Cron\Tests\Provider;
 
 use PHPUnit\Framework\TestCase;
-use Viserio\Component\Cache\Providers\CacheServiceProvider;
+use Viserio\Component\Cache\Provider\CacheServiceProvider;
 use Viserio\Component\Container\Container;
-use Viserio\Component\Cron\Providers\CronServiceProvider;
+use Viserio\Component\Cron\Provider\CronServiceProvider;
 use Viserio\Component\Cron\Schedule;
 
 class CronServiceProviderTest extends TestCase

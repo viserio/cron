@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
-namespace Viserio\Component\Cron\Tests\Commands;
+namespace Viserio\Component\Cron\Tests\Command;
 
 use Narrowspark\TestingHelper\ArrayContainer;
 use Narrowspark\TestingHelper\Phpunit\MockeryTestCase;
 use Symfony\Component\Console\Tester\CommandTester;
-use Viserio\Component\Cron\Commands\CronListCommand;
+use Viserio\Component\Cron\Command\CronListCommand;
 use Viserio\Component\Cron\Schedule;
 
 class CronListCommandTest extends MockeryTestCase

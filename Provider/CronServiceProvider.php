@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace Viserio\Component\Cron\Providers;
+namespace Viserio\Component\Cron\Provider;
 
 use Interop\Container\ServiceProvider;
 use Psr\Cache\CacheItemPoolInterface;

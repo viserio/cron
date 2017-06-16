@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
-namespace Viserio\Component\Cron\Providers;
+namespace Viserio\Component\Cron\Provider;
 
 use Interop\Container\ServiceProvider;
 use Psr\Container\ContainerInterface;
 use Viserio\Component\Console\Application;
-use Viserio\Component\Cron\Commands\CronListCommand;
-use Viserio\Component\Cron\Commands\ScheduleRunCommand;
+use Viserio\Component\Cron\Command\CronListCommand;
+use Viserio\Component\Cron\Command\ScheduleRunCommand;
 
 class ConsoleCommandsServiceProvider implements ServiceProvider
 {
@@ -37,8 +37,6 @@ class ConsoleCommandsServiceProvider implements ServiceProvider
                 new CronListCommand(),
                 new ScheduleRunCommand(),
             ]);
-
-            return $console;
         }
 
         return $console;

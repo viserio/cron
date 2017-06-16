@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace Viserio\Component\Cron\Commands;
+namespace Viserio\Component\Cron\Command;
 
 use Symfony\Component\Console\Helper\Table;
 use Viserio\Component\Console\Command\Command;
