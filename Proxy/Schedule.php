@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace Viserio\Component\Cron\Proxie;
+namespace Viserio\Component\Cron\Proxy;
 
 use Viserio\Component\Cron\Schedule as CronSchedule;
 use Viserio\Component\StaticalProxy\StaticalProxy;
